@@ -30,7 +30,7 @@ jobs:
       - uses: actions/checkout@v2
         with:
           repository: bb1950328/BrickSim
-          token: ${{ secrets.GitHub_PAT }}
+          token: ${{ secrets.BRICKSIM_TOKEN }}
           path: BrickSim
       
       - run: ls -l -R $GITHUB_WORKSPACE
