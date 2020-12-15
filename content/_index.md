@@ -12,7 +12,7 @@ draft: false
 
 lorem ipsum
 
-{{< button "manual/" "Read the Manual" >}} {{< button "screenshots/" "Look at the screenshots" >}}
+{{< button "docs/" "Read the Docs" >}} {{< button "screenshots/" "Look at the screenshots" >}}
 
 {{< /column >}}
 {{< column >}}
