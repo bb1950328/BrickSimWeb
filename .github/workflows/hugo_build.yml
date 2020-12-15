@@ -31,7 +31,7 @@ jobs:
           mkdir $GITHUB_WORKSPACE/BrickSim
           cd $GITHUB_WORKSPACE/BrickSim
           git init
-          git pull https://${{ secrets.BRICKSIM_TOKEN }}:x-oauth-basic@github.com/bb1950328/BrickSim.git
+          git pull https://${{ secrets.BRICKSIM_TOKEN }}:x-oauth-basic@github.com/bb1950328/BrickSim.git --ff-only
       
       - run: ls -l -R $GITHUB_WORKSPACE
       
