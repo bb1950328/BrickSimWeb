@@ -1,0 +1,5 @@
+baseURL = "https://bb1950328.github.io/BrickSim"
+languageCode = "en-us"
+title = "BrickSim"
+theme = "hugo-casper3"
+publishDir = "../BrickSim/docs"
