@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7b79909-f794-4776-a4fc-d3c27a501ceb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/content/docs/technical_info/code_structure.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/technical_info/technologies_dependencies.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/technical_info/technologies_dependencies.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +36,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/content/docs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/content/docs/technical_info" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -48,8 +48,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Bader\CLionProjects\BrickSimWeb\content\docs" />
       <recent name="C:\Users\Bader\CLionProjects\BrickSimWeb\content\docs\technical_info" />
+      <recent name="C:\Users\Bader\CLionProjects\BrickSimWeb\content\docs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Bader\CLionProjects\BrickSimWeb\static" />
@@ -79,6 +79,7 @@
     <MESSAGE value="added some content" />
     <MESSAGE value="update github action" />
     <MESSAGE value="working on docs" />
-    <option name="LAST_COMMIT_MESSAGE" value="working on docs" />
+    <MESSAGE value="finished technologies_dependencies.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished technologies_dependencies.md" />
   </component>
 </project>
