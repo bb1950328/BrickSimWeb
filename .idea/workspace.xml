@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7b79909-f794-4776-a4fc-d3c27a501ceb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/content/docs/contributing/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/docs/contributing/code.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/docs/contributing/code_of_conduct.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/docs/contributing/web.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/docs/technical_info/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/docs/technical_info/technologies_dependencies.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/shortcodes/logo5rem.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/_index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/docs/technical_info/technologies_dependencies.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/technical_info/technologies_dependencies.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +78,7 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="added some content" />
     <MESSAGE value="update github action" />
-    <option name="LAST_COMMIT_MESSAGE" value="update github action" />
+    <MESSAGE value="working on docs" />
+    <option name="LAST_COMMIT_MESSAGE" value="working on docs" />
   </component>
 </project>
