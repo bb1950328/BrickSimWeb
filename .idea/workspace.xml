@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7b79909-f794-4776-a4fc-d3c27a501ceb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/layouts/shortcodes/textcolor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/hugo_build.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/hugo_build.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +81,7 @@
     <MESSAGE value="finished technologies_dependencies.md" />
     <MESSAGE value="add code_structure.md" />
     <MESSAGE value="update docs" />
-    <option name="LAST_COMMIT_MESSAGE" value="update docs" />
+    <MESSAGE value="add warning on front page" />
+    <option name="LAST_COMMIT_MESSAGE" value="add warning on front page" />
   </component>
 </project>

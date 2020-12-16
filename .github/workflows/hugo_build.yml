@@ -43,8 +43,14 @@ jobs:
 
       - name: Build
         run: hugo --minify
+
+      - name: Configure git user
+        run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Actions Bot"
       
-      - run: |
+      - name: Commit changes
+        run: |
           cd $GITHUB_WORKSPACE/BrickSim/
           git add docs/*
           git commit -m "Update Website from bb1950328/BrickSimWeb"
