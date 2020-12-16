@@ -33,7 +33,8 @@ jobs:
           mkdir $GITHUB_WORKSPACE/BrickSimWeb
           cd $GITHUB_WORKSPACE/BrickSimWeb
           git init
-          git pull https://${{ secrets.BRICKSIM_TOKEN }}:x-oauth-basic@github.com/bb1950328/BrickSimWeb.git --ff-only --recurse-submodules
+          git pull https://${{ secrets.BRICKSIM_TOKEN }}:x-oauth-basic@github.com/bb1950328/BrickSimWeb.git --ff-only
+          git submodule update --init --recursive
       
       - run: ls -l -R $GITHUB_WORKSPACE
       
