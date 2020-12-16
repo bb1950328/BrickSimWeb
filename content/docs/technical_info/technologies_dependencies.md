@@ -5,11 +5,12 @@ weight: 1
 
 | Logo | Description |
 |:---- | ----------- |
-| {{< logo5rem alt="C++ Logo" src="https://raw.githubusercontent.com/isocpp/logos/master/cpp_logo.png" class="logo" >}} | BrickSim uses C++. The main reason for this choice was execution speed.  |
-| {{< logo5rem alt="CMake Logo" src="https://cmake.org/wp-content/uploads/2019/05/Cmake-logo-header.png" class="logo" >}} | BrickSim is built using the platform-independent build system CMake.  |
+| {{< logo5rem alt="C++ Logo" src="https://raw.githubusercontent.com/isocpp/logos/master/cpp_logo.png" class="logo" >}} | BrickSim uses [C++](https://www.cplusplus.com/). The main reason for this choice was execution speed.  |
+| {{< logo5rem alt="CMake Logo" src="https://cmake.org/wp-content/uploads/2019/05/Cmake-logo-header.png" class="logo" >}} | BrickSim is built using the platform-independent build system [CMake](https://cmake.org/).  |
 | {{< logo5rem alt="Dear ImGui Logo" src="../../../img/dear_imgui_logo.png" class="logo" >}} | The User Interface is made with [Dear ImGui](https://github.com/ocornut/imgui).  |
-| {{< logo5rem alt="OpenGL Logo" src="../../../img/openGL_logo.svg" class="logo" >}} | OpenGL is used for rendering on all platforms.  |
-| {{< logo5rem alt="SQLite Logo" src="../../../img/sqlite_logo.gif" class="logo" >}} | SQLite3 is used to save settings and cache to the disk. The library [SQLiteCpp](https://github.com/SRombauts/SQLiteCpp.git) is used. |
+| {{< logo5rem alt="OpenGL Logo" src="../../../img/openGL_logo.svg" class="logo" >}} | [OpenGL](https://www.opengl.org/) is used for rendering on all platforms.  |
+| {{< logo5rem alt="SQLite Logo" src="../../../img/sqlite_logo.gif" class="logo" >}} | [SQLite3](https://www.sqlite.org/index.html) is used to save settings and cache to the disk. The library [SQLiteCpp](https://github.com/SRombauts/SQLiteCpp.git) is used. |
+| {{< logo5rem alt="Hugo Logo" src="../../../img/hugo_logo.svg" class="logo" >}} | [Hugo](https://gohugo.io/) is a static site generator using go. It is used in [BrickSimWeb](https://github.com/bb1950328/BrickSimWeb). |
 
 * [mingw-std-threads](https://github.com/meganz/mingw-std-threads) is needed to use `std::thread` on MinGW.
 * [GLFW](https://github.com/glfw/glfw.git) is used to create a window and handle inputs.
