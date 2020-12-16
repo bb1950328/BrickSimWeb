@@ -63,5 +63,6 @@ jobs:
       - name: Push changes
         run: |
           cd $GITHUB_WORKSPACE/BrickSim/
-          git remote add origin https://www.github.com/bb1950328/BrickSim.git
-          git push --set-upstream origin master
+          #git remote add origin https://www.github.com/bb1950328/BrickSim.git
+          #git push --set-upstream origin master
+          git push https://${{ secrets.BRICKSIM_TOKEN }}:x-oauth-basic@github.com/bb1950328/BrickSim.git
