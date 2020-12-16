@@ -61,4 +61,6 @@ jobs:
           git commit -m "Update Website from bb1950328/BrickSimWeb"
 
       - name: Push changes
-        run: git push
+        run: |
+          cd $GITHUB_WORKSPACE/BrickSim/
+          git push
