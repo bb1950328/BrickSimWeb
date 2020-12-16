@@ -22,16 +22,18 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
-        with:
-          submodules: true
-
-      - run: |
+      - name: clone bb1950328/BrickSim.git
+        run: |
           mkdir $GITHUB_WORKSPACE/BrickSim
           cd $GITHUB_WORKSPACE/BrickSim
           git init
           git pull https://${{ secrets.BRICKSIM_TOKEN }}:x-oauth-basic@github.com/bb1950328/BrickSim.git --ff-only
+      - name: clone bb1950328/BrickSimWeb.git
+        run: |
+          mkdir $GITHUB_WORKSPACE/BrickSimWeb
+          cd $GITHUB_WORKSPACE/BrickSimWeb
+          git init
+          git pull https://${{ secrets.BRICKSIM_TOKEN }}:x-oauth-basic@github.com/bb1950328/BrickSimWeb.git --ff-only
       
       - run: ls -l -R $GITHUB_WORKSPACE
       
@@ -42,7 +44,9 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --minify
+        run: |
+          cd $GITHUB_WORKSPACE/BrickSimWeb
+          hugo --minify
 
       - name: Configure git user
         run: |
