@@ -18,7 +18,7 @@ draft: false
 
 # BrickSim
 
-lorem ipsum
+lorem ipsum dolor sit amet
 
 {{< button "docs/" "Read the Docs" >}} {{< button "screenshots/" "Look at the screenshots" >}}
 
