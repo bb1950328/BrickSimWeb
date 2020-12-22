@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7b79909-f794-4776-a4fc-d3c27a501ceb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/content/docs/features/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/docs/features/_planned.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/docs/features/static_analysis.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layouts/shortcodes/issue.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layouts/shortcodes/milestone.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/_index.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +41,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/content/docs/technical_info" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/layouts/shortcodes" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -48,6 +53,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/layouts/shortcodes" />
       <recent name="C:\Users\Bader\CLionProjects\BrickSimWeb\content\docs\technical_info" />
       <recent name="C:\Users\Bader\CLionProjects\BrickSimWeb\content\docs" />
     </key>
@@ -57,7 +63,7 @@
   </component>
   <component name="RunManager">
     <configuration name="hugo serve" type="ShConfigurationType">
-      <option name="INDEPENDENT_SCRIPT_PATH" value="false" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
       <option name="SCRIPT_PATH" value="$USER_HOME$/Downloads/hugo_extended_0.79.0_Windows-64bit/hugo.exe" />
       <option name="SCRIPT_OPTIONS" value="serve" />
       <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
