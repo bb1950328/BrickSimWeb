@@ -13,3 +13,5 @@ The following table lists all bigger features which are planned but not realized
 | Customizable line thickness | {{< issue 5 >}} |
 | Set camera origin to part location | {{< issue 7 >}} |
 | Static analysis (just here for completeness, there's a [separate page for this](../static_analysis)) | {{< milestone 1 >}} |
+| More sophisticated part search to handle queries like `title=Hello OR name=World` | {{< issue 8 >}} |
+| Universal keymap (user can configure keyboard shortcut or mouse event for all actions | {{< issue 11 >}} |

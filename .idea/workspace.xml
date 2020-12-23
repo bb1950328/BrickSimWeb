@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7b79909-f794-4776-a4fc-d3c27a501ceb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/content/docs/contributing/code/workspace_setup_linux.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/docs/contributing/code/workspace_setup_windows.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/docs/installation/get_codes_txt.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/features/_planned.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/features/_planned.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/features/static_analysis.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/features/static_analysis.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/docs/contributing/code.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/contributing/code/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/docs/features/planned.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/features/planned.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +40,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/layouts/shortcodes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/content/docs/contributing/code" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -49,11 +52,13 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/content/docs/contributing/code" />
       <recent name="$PROJECT_DIR$/layouts/shortcodes" />
       <recent name="C:\Users\Bader\CLionProjects\BrickSimWeb\content\docs\technical_info" />
       <recent name="C:\Users\Bader\CLionProjects\BrickSimWeb\content\docs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/content/docs/contributing/code" />
       <recent name="C:\Users\Bader\CLionProjects\BrickSimWeb\static" />
     </key>
   </component>
@@ -88,6 +93,7 @@
     <MESSAGE value="update hugo_build.yml" />
     <MESSAGE value="just a change to test GitHub Actions" />
     <MESSAGE value="- downloaded C++ and CMake logo&#10;- include original commit message in commit by GitHub Actions" />
-    <option name="LAST_COMMIT_MESSAGE" value="- downloaded C++ and CMake logo&#10;- include original commit message in commit by GitHub Actions" />
+    <MESSAGE value="wrote text" />
+    <option name="LAST_COMMIT_MESSAGE" value="wrote text" />
   </component>
 </project>
