@@ -1,6 +1,6 @@
 ---
-title: "Linux Workspace Setup"
-weight: 1
+title: "Windows Workspace Setup"
+weight: 2
 ---
 
 1. Download MSYS2 from [https://www.msys2.org/](https://www.msys2.org/) and follow the installation instructions there
