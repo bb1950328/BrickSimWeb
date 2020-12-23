@@ -35,6 +35,7 @@ jobs:
           git init
           git pull https://${{ secrets.BRICKSIM_TOKEN }}:x-oauth-basic@github.com/bb1950328/BrickSimWeb.git --ff-only
           git submodule update --init --recursive
+          git log --pretty=format:'Update Website from bb1950328/BrickSimWeb (original commit %h by %an "%s")' -n 1 > $GITHUB_WORKSPACE/commit_msg.txt
       
       - run: ls -l -R $GITHUB_WORKSPACE
       
@@ -58,7 +59,7 @@ jobs:
         run: |
           cd $GITHUB_WORKSPACE/BrickSim/
           git add docs/*
-          git commit -m "Update Website from bb1950328/BrickSimWeb"
+          git commit -F $GITHUB_WORKSPACE/commit_msg.txt
 
       - name: Push changes
         run: |
