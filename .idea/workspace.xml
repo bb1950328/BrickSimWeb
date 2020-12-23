@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7b79909-f794-4776-a4fc-d3c27a501ceb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/content/docs/features/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/docs/features/_planned.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/docs/features/static_analysis.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/shortcodes/issue.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/shortcodes/milestone.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/docs/features/_planned.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/features/_planned.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/docs/features/static_analysis.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/features/static_analysis.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +87,7 @@
     <MESSAGE value="add warning on front page" />
     <MESSAGE value="update hugo_build.yml" />
     <MESSAGE value="just a change to test GitHub Actions" />
-    <option name="LAST_COMMIT_MESSAGE" value="just a change to test GitHub Actions" />
+    <MESSAGE value="- downloaded C++ and CMake logo&#10;- include original commit message in commit by GitHub Actions" />
+    <option name="LAST_COMMIT_MESSAGE" value="- downloaded C++ and CMake logo&#10;- include original commit message in commit by GitHub Actions" />
   </component>
 </project>

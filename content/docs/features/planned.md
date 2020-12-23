@@ -12,4 +12,4 @@ The following table lists all bigger features which are planned but not realized
 | Pan function in 3D view | {{< issue 4 >}} |
 | Customizable line thickness | {{< issue 5 >}} |
 | Set camera origin to part location | {{< issue 7 >}} |
-| Static analysis (just here for completeness, there's a [separate page for this](../static_analysis) | {{< milestone 1 >}} |
+| Static analysis (just here for completeness, there's a [separate page for this](../static_analysis)) | {{< milestone 1 >}} |
