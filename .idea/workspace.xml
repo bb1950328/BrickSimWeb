@@ -123,5 +123,9 @@
     <MESSAGE value="moved text from BrickSim/README.md" />
     <MESSAGE value="fix copy/paste mistake" />
     <option name="LAST_COMMIT_MESSAGE" value="fix copy/paste mistake" />
+    <MESSAGE value="fix copy/paste mistake" />
+    <MESSAGE value="add macos workspace setup&#10;fix typo in win and linux workspace setup" />
+    <MESSAGE value="change theme color&#10;use own fork of theme as submodule" />
+    <option name="LAST_COMMIT_MESSAGE" value="change theme color&#10;use own fork of theme as submodule" />
   </component>
 </project>
