@@ -3,4 +3,4 @@
 	url = https://github.com/jonathanjanssens/hugo-casper3
 [submodule "themes/compose"]
 	path = themes/compose
-	url = https://github.com/onweru/compose.git
+	url = https://github.com/bb1950328/compose.git
