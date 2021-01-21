@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b7b79909-f794-4776-a4fc-d3c27a501ceb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/contributing/code/workspace_setup_macos.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/contributing/code/workspace_setup_macos.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/installation/linux.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/installation/linux.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/compose" beforeDir="false" afterPath="$PROJECT_DIR$/themes/compose" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/docs/contributing/code/vscode_setup.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/contributing/code/vscode_setup_windows.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,10 +17,18 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file:///snap/go/current" />
+  <component name="GOROOT" url="file://$USER_HOME$/go/sdk/go1.15.6" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
@@ -42,7 +48,6 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/content/docs/contributing/code" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -127,10 +132,8 @@
     <MESSAGE value="fix copy/paste mistake" />
     <MESSAGE value="add macos workspace setup&#10;fix typo in win and linux workspace setup" />
     <MESSAGE value="change theme color&#10;use own fork of theme as submodule" />
-    <MESSAGE value="remove old theme submodule" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove old theme submodule" />
-  </component>
-  <component name="VgoProject">
-    <integration-enabled>true</integration-enabled>
+    <MESSAGE value="updated workspace setup becaus most things are done by a script now" />
+    <MESSAGE value="add instructions to set up the development environment with VS Code on Windows (#15)" />
+    <option name="LAST_COMMIT_MESSAGE" value="add instructions to set up the development environment with VS Code on Windows (#15)" />
   </component>
 </project>
