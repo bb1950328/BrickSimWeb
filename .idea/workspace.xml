@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7b79909-f794-4776-a4fc-d3c27a501ceb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/content/docs/contributing/code/workspace_setup_macos.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
+    <list default="true" id="b7b79909-f794-4776-a4fc-d3c27a501ceb" name="Default Changelist" comment="change theme color&#10;use own fork of theme as submodule">
+      <change afterPath="$PROJECT_DIR$/content/docs/contributing/code/vscode_setup.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/contributing/code/workspace_setup_linux.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/contributing/code/workspace_setup_linux.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/contributing/code/workspace_setup_windows.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/contributing/code/workspace_setup_windows.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/compose" beforeDir="false" afterPath="$PROJECT_DIR$/themes/compose" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/compose/assets/sass/_variables.sass" beforeDir="false" afterPath="$PROJECT_DIR$/themes/compose/assets/sass/_variables.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +22,17 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
   <component name="ProjectId" id="1lghLBrowjM0WmF6vfoyg1bpQ2w" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
@@ -42,6 +48,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/content/docs/contributing/code" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -122,10 +129,10 @@
     <MESSAGE value="wrote text" />
     <MESSAGE value="moved text from BrickSim/README.md" />
     <MESSAGE value="fix copy/paste mistake" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix copy/paste mistake" />
     <MESSAGE value="fix copy/paste mistake" />
     <MESSAGE value="add macos workspace setup&#10;fix typo in win and linux workspace setup" />
     <MESSAGE value="change theme color&#10;use own fork of theme as submodule" />
-    <option name="LAST_COMMIT_MESSAGE" value="change theme color&#10;use own fork of theme as submodule" />
+    <MESSAGE value="updated workspace setup becaus most things are done by a script now" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated workspace setup becaus most things are done by a script now" />
   </component>
 </project>
