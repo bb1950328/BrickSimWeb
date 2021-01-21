@@ -10,9 +10,9 @@ weight: 2
    ![screenshot of VS Code notifications after opening the project the first time](../../../../img/vscode_windows_screenshot1.png)  
    click "yes" on the first notification, we'll deal with the second one later.
 1. Now it's time to adjust some settings:
-   1. Press `Ctrl`+`Shift`+`P` and type "preferences: Open Settings (JSON)"  
+   1. Press <kbd>Ctrl</kbd> + <kbd>Shift</kbd>+ <kbd>P</kbd> and type "preferences: Open Settings (JSON)"  
       ![After pressing Ctrl+Shift+P and typing "preferences: Open Settings (JSON)"](../../../../img/vscode_windows_screenshot2.png)  
-      Hit `Enter` or click the first result.
+      Hit <kbd>Enter</kbd> or click the first result.
    1. add the following text:
       ```json
       {
@@ -38,7 +38,7 @@ weight: 2
       ```
       Maybe you already have some settings here so make sure they don't contradict each other.
    1. Save the `settings.json` file.
-   1. Now press `Ctrl`+`Shift`+`P` and type "CMake: Edit User-Local CMake Kits"  
+   1. Now press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> and type "CMake: Edit User-Local CMake Kits"  
       ![After pressing Ctrl+Shift+P and typing "CMake: Edit User-Local CMake Kits"](../../../../img/vscode_windows_screenshot3.png)
    1. Insert the following code: 
       ```json
