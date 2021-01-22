@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b7b79909-f794-4776-a4fc-d3c27a501ceb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/contributing/code/vscode_setup.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/contributing/code/vscode_setup_windows.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,6 +133,7 @@
     <MESSAGE value="change theme color&#10;use own fork of theme as submodule" />
     <MESSAGE value="updated workspace setup becaus most things are done by a script now" />
     <MESSAGE value="add instructions to set up the development environment with VS Code on Windows (#15)" />
-    <option name="LAST_COMMIT_MESSAGE" value="add instructions to set up the development environment with VS Code on Windows (#15)" />
+    <MESSAGE value="small improvements (#15)" />
+    <option name="LAST_COMMIT_MESSAGE" value="small improvements (#15)" />
   </component>
 </project>
