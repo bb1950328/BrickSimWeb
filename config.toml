@@ -48,15 +48,15 @@ enableGitInfo = true
 
     time_format_blog = "Monday, January 02, 2006"
     time_format_default = "January 2, 2006"
-    enableDarkMode = true # set to false to disable darkmode by default # user will still have the option to use dark mode
+    enableDarkMode = true
+    codeLineNumbers = true
 
-    # Site logo
-    # todo
-    #[params.logo]
-    #    lightMode = "compose.svg"
-    #    darkMode = "compose-light.svg"
-    #
-    #[params.source]
-    #    name = "GitHub"
-    #    icon = "github.svg"
-    #    url = "https://github.com/onweru/compose/"
+    [params.logo]
+        lightMode = "img/logo.png"
+        darkMode = "img/logo.png"
+
+    [params.source]
+        name = "GitHub"
+        iconLight = "img/GitHubMarkLight.svg"
+        iconDark = "img/GitHubMarkDark.svg"
+        url = "https://github.com/bb1950328/BrickSim"
