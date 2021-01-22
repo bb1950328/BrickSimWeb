@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7b79909-f794-4776-a4fc-d3c27a501ceb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/config.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/GitHubMarkDark.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/GitHubMarkDark.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/docs/contributing/code/workspace_setup.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/contributing/code/workspace_setup.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/compose" beforeDir="false" afterPath="$PROJECT_DIR$/themes/compose" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,10 +22,10 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/themes/compose" value="customize" />
+        <entry key="$PROJECT_DIR$/themes/compose" value="master" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/themes/compose" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -150,6 +147,7 @@
     <MESSAGE value="updated workspace setup becaus most things are done by a script now" />
     <MESSAGE value="add instructions to set up the development environment with VS Code on Windows (#15)" />
     <MESSAGE value="update theme" />
-    <option name="LAST_COMMIT_MESSAGE" value="update theme" />
+    <MESSAGE value="add GitHub icon" />
+    <option name="LAST_COMMIT_MESSAGE" value="add GitHub icon" />
   </component>
 </project>
