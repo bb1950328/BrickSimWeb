@@ -55,15 +55,19 @@ jobs:
           git config --global user.email "action@github.com"
           git config --global user.name "GitHub Actions Bot"
       
-      - name: Commit changes
+      - name: Commit and push changes
         run: |
           cd $GITHUB_WORKSPACE/BrickSim/
           git add docs/*
-          git commit -F $GITHUB_WORKSPACE/commit_msg.txt
-
-      - name: Push changes
-        run: |
-          cd $GITHUB_WORKSPACE/BrickSim/
-          #git remote add origin https://www.github.com/bb1950328/BrickSim.git
-          #git push --set-upstream origin master
-          git push --set-upstream https://${{ secrets.BRICKSIM_TOKEN }}:x-oauth-basic@github.com/bb1950328/BrickSim.git master
+          
+          CHANGED=0
+          echo "changes detected"
+          git diff --no-ext-diff --quiet || CHANGED=1
+          git config --global user.email "action@github.com"
+          if [[ "$CHANGED" -eq "1" ]]; then
+            git commit -F $GITHUB_WORKSPACE/commit_msg.txt
+            cd $GITHUB_WORKSPACE/BrickSim/
+            git push --set-upstream https://${{ secrets.BRICKSIM_TOKEN }}:x-oauth-basic@github.com/bb1950328/BrickSim.git master
+          else
+            echo "no changes detected, doing nothing"
+          fi
