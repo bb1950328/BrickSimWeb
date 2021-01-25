@@ -1,4 +1,4 @@
-baseURL = "https://bb1950328.github.io/BrickSim"
+baseURL = "https://BrickSim.org"
 languageCode = "en-us"
 title = "BrickSim"
 theme = "compose"

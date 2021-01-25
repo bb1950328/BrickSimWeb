@@ -8,6 +8,7 @@
       <change afterPath="$PROJECT_DIR$/static/img/vscode_linux_screenshot3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/docs/contributing/code/workspace_setup.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/contributing/code/workspace_setup.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/compose" beforeDir="false" afterPath="$PROJECT_DIR$/themes/compose" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,19 +107,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="roots">
-                    <value>
-                      <list>
-                        <option value="$PROJECT_DIR$/themes/compose" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
