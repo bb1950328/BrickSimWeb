@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7b79909-f794-4776-a4fc-d3c27a501ceb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/content/docs/contributing/code/vscode_setup_linux.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/vscode_linux_screenshot1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/vscode_linux_screenshot2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/vscode_linux_screenshot3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/contributing/code/workspace_setup.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/contributing/code/workspace_setup.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/compose/assets/js/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/compose/assets/js/search.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +24,7 @@
         <entry key="$PROJECT_DIR$/themes/compose" value="master" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/themes/compose" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -106,19 +102,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="roots">
-                    <value>
-                      <list>
-                        <option value="$PROJECT_DIR$/themes/compose" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -154,6 +138,7 @@
     <MESSAGE value="add link to vs code workspace setup&#10;update theme" />
     <MESSAGE value="change color in light mode to blue too" />
     <MESSAGE value="update theme" />
-    <option name="LAST_COMMIT_MESSAGE" value="update theme" />
+    <MESSAGE value="update domain to BrickSim.org" />
+    <option name="LAST_COMMIT_MESSAGE" value="update domain to BrickSim.org" />
   </component>
 </project>
