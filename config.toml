@@ -52,6 +52,7 @@ enableGitInfo = true
     codeLineNumbers = true
 
     description = "BrickSim is an LDraw-based open source application to build and analyze LEGO® models on your computer."
+    metaThemeColor = "#0155d9"
 
     [params.logo]
         lightMode = "img/logo.png"
