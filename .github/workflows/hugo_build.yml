@@ -45,6 +45,12 @@ jobs:
           hugo-version: '0.79.0'
           extended: true
 
+      - name: Clear output directory
+        run: |
+          mv $GITHUB_WORKSPACE/BrickSim/docs/CNAME $GITHUB_WORKSPACE/CNAME
+          rm -r $GITHUB_WORKSPACE/BrickSim/docs/*
+          mv $GITHUB_WORKSPACE/CNAME $GITHUB_WORKSPACE/BrickSim/docs/CNAME
+
       - name: Build
         run: |
           cd $GITHUB_WORKSPACE/BrickSimWeb
