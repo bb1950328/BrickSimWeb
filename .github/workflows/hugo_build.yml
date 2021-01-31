@@ -45,6 +45,12 @@ jobs:
           hugo-version: '0.79.0'
           extended: true
 
+      - name: Clear output directory
+        run: |
+          mv $GITHUB_WORKSPACE/BrickSim/docs/CNAME $GITHUB_WORKSPACE/CNAME
+          rm -r $GITHUB_WORKSPACE/BrickSim/docs/*
+          mv $GITHUB_WORKSPACE/CNAME $GITHUB_WORKSPACE/BrickSim/docs/CNAME
+
       - name: Build
         run: |
           cd $GITHUB_WORKSPACE/BrickSimWeb
@@ -59,15 +65,7 @@ jobs:
         run: |
           cd $GITHUB_WORKSPACE/BrickSim/
           git add docs/*
-          
-          CHANGED=0
-          echo "changes detected"
-          git diff --no-ext-diff --quiet || CHANGED=1
-          git config --global user.email "action@github.com"
-          if [[ "$CHANGED" -eq "1" ]]; then
-            git commit -F $GITHUB_WORKSPACE/commit_msg.txt
-            cd $GITHUB_WORKSPACE/BrickSim/
-            git push --set-upstream https://${{ secrets.BRICKSIM_TOKEN }}:x-oauth-basic@github.com/bb1950328/BrickSim.git master
-          else
-            echo "no changes detected, doing nothing"
-          fi
+          git status
+          git commit -F $GITHUB_WORKSPACE/commit_msg.txt || true
+          cd $GITHUB_WORKSPACE/BrickSim/
+          git push --set-upstream https://${{ secrets.BRICKSIM_TOKEN }}:x-oauth-basic@github.com/bb1950328/BrickSim.git master || true
