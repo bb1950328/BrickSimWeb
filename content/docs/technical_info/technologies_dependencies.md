@@ -17,3 +17,5 @@ weight: 1
 | [Miniball](https://people.inf.ethz.ch/gaertner/subdir/software/miniball.html) | to determine the smallest enclosing ball of points, for example to center the part thumbnails. | [GPLv3](https://people.inf.ethz.ch/gaertner/subdir/software/miniball.html) |
 | [stb_image.h](https://github.com/nothings/stb/blob/master/stb_image.h)  and [stb_image_write.h](https://github.com/nothings/stb/blob/master/stb_image_write.h) | for image reading and writing. | [Public domain](https://github.com/nothings/stb#whats-the-license) |
 | [tinyfiledialogs](https://sourceforge.net/projects/tinyfiledialogs/) | to open native file dialogs on all platforms. | [zlib/libpng](https://sourceforge.net/projects/tinyfiledialogs/) |
+| [rapidjson](https://github.com/Tencent/rapidjson) | to read and write data in the JSON format. | [MIT](https://github.com/Tencent/rapidjson/blob/master/license.txt) |
+| {{< logo5rem alt="Catch2 Logo" src="../../../img/catch2_logo.png" class="logo" >}} | used for unit testing. | [Boost Software License 1.0 ](https://github.com/catchorg/Catch2/blob/devel/LICENSE.txt) |
