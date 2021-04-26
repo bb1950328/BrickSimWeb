@@ -1,6 +1,7 @@
 # file: .gitpod.yml
 
-image: gitpod/workspace-full
+image:
+  file: .gitpod.Dockerfile
 
 tasks:
   - command: 'hugo server --baseUrl $(gp url 1313) --appendPort=false'
