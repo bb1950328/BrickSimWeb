@@ -4,8 +4,11 @@ image:
   file: .gitpod.Dockerfile
 
 tasks:
-  - command: 'hugo server --baseUrl $(gp url 1313) --appendPort=false'
+  - command: 'hugo server --baseUrl $(gp url 1313) --appendPort=false --liveReloadPort 443'
 
 ports:
   - port: 1313
-    onOpen: open-preview
+    onOpen: ignore
+  
+  - port: 443
+    onOpen: ignore
