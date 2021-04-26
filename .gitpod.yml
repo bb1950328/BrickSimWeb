@@ -17,3 +17,4 @@ vscode:
   extensions:
     - budparr.language-hugo-vscode
     - davidanson.vscode-markdownlint
+    - syler.sass-indented
