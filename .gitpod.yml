@@ -1,4 +1,3 @@
-# file: .gitpod.yml
 
 image:
   file: .gitpod.Dockerfile
@@ -10,6 +9,11 @@ tasks:
 ports:
   - port: 1313
     onOpen: ignore
-  
+
   - port: 443
     onOpen: ignore
+
+vscode:
+  extensions:
+    - budparr.language-hugo-vscode
+    - davidanson.vscode-markdownlint
