@@ -1,10 +1,20 @@
-# file: .gitpod.yml
 
-image: gitpod/workspace-full
+image:
+  file: .gitpod.Dockerfile
 
 tasks:
-  - command: 'hugo server --baseUrl $(gp url 1313) --appendPort=false'
+# TODO make live reload work
+  - command: 'hugo server --baseUrl $(gp url 1313) --appendPort=false --disableLiveReload'
 
 ports:
   - port: 1313
-    onOpen: open-preview
+    onOpen: ignore
+
+  - port: 443
+    onOpen: ignore
+
+vscode:
+  extensions:
+    - budparr.language-hugo-vscode
+    - davidanson.vscode-markdownlint
+    - syler.sass-indented
