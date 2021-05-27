@@ -45,14 +45,18 @@ enableGitInfo = true
 
 # Everything below this are Site Params
 [params]
-    #todo custom_css = ["css/style.css"]
-
     repo = "https://github.com/bb1950328/BrickSim"
+
+    uniqueHomePage = true
 
     time_format_blog = "Monday, January 02, 2006"
     time_format_default = "January 2, 2006"
     enableDarkMode = true
     codeLineNumbers = true
+
+    [params.author]
+        name = "bb1950328"
+        url = "https://github.com/bb1950328"
 
     description = "BrickSim is an LDraw-based open source application to build and analyze LEGO® models on your computer."
     metaThemeColor = "#0155d9"
