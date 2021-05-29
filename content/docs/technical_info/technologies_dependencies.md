@@ -19,3 +19,5 @@ weight: 1
 | [tinyfiledialogs](https://sourceforge.net/projects/tinyfiledialogs/) | to open native file dialogs on all platforms. | [zlib/libpng](https://sourceforge.net/projects/tinyfiledialogs/) |
 | [rapidjson](https://github.com/Tencent/rapidjson) | to read and write data in the JSON format. | [MIT](https://github.com/Tencent/rapidjson/blob/master/license.txt) |
 | {{< logo5rem alt="Catch2 Logo" src="../../../img/catch2_logo.png" class="logo" >}} | used for unit testing. | [Boost Software License 1.0 ](https://github.com/catchorg/Catch2/blob/devel/LICENSE.txt) |
+| [pytorch/cpuinfo](https://github.com/pytorch/cpuinfo) | used to get information about the processor | [BSD-2-Clause](https://github.com/pytorch/cpuinfo/blob/master/LICENSE) |
+| [magic_enum](https://github.com/Neargye/magic_enum) | used for easier enum handling | [MIT](https://github.com/Neargye/magic_enum/blob/master/LICENSE) |
