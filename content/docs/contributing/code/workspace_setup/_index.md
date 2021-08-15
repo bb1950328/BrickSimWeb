@@ -23,5 +23,3 @@ This page describes how to set up your workspace, so you can develop on BrickSim
 ## Open the IDE
 The project is CMake-based, so your IDE should support CMake.
 I recommend you to use [CLion](https://www.jetbrains.com/clion/).  
-You can follow [this tutorial](../vscode_setup_windows) if you want to use VS Code on Windows.
-A tutorial for VS Code ({{< issue 15 >}}), Visual Studio 2019 ({{< issue 16 >}}) and XCode ({{< issue 16 >}}) is in planning.

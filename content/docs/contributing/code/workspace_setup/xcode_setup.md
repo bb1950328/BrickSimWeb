@@ -11,11 +11,11 @@ weight: 5
 1. Then you can generate the XCode project files.
    * If you have the CMake GUI, you can configure the project like this:
      1. Set the path of the directory you just cloned BrickSim into:
-        ![configure CMake Project for Xcode using CMake GUI](../../../../img/xcode_cmake_gui_step1.png)
+        ![configure CMake Project for Xcode using CMake GUI](../../../../../img/xcode_cmake_gui_step1.png)
      2. Click on "Configure" (Click on "Yes" if the question "Build directory does not exist, should I create it?" pops up:
-        ![configure CMake Project for Xcode using CMake GUI](../../../../img/xcode_cmake_gui_step2.png)
+        ![configure CMake Project for Xcode using CMake GUI](../../../../../img/xcode_cmake_gui_step2.png)
      3. Click on "Done" after setting the generator to "Xcode". After waiting a minute, the window should look like this:
-        ![configure CMake Project for Xcode using CMake GUI](../../../../img/xcode_cmake_gui_step3.png)
+        ![configure CMake Project for Xcode using CMake GUI](../../../../../img/xcode_cmake_gui_step3.png)
      4. Check the log in the lower part of the window. Warnings are OK, errors are not. When there are no errors, click the "Generate" Button.
      5. The "Open Project" Button isn't greyed out anymore, and you can click it too.
      
@@ -28,5 +28,5 @@ weight: 5
      (you have to be inside the `BrickSim` directory initially)
      Then you can open the project in Xcode.
 1. When Xcode has loaded the project, you have to switch the target to BrickSim:
-   ![configure CMake Project for Xcode using CMake GUI](../../../../img/xcode_cmake_gui_step4.png)
+   ![Xcode target selection](../../../../../img/xcode_cmake_gui_step4.png)
 1. After that, you should be able to build and run BrickSim. Happy coding!
