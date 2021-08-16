@@ -17,4 +17,6 @@ This way you don't waste time for something which we won't accept.
 
 Of course, we accept as much as possible, but if something does not make sense, it is better not to accept it.
 
-Before you start, make sure you read the [technical documentation](../../technical_info).
+Before you start, make sure you read the following documents:
+* [Technical documentation](../../technical_info).
+* [Code style](./code_style)
