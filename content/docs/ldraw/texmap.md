@@ -65,7 +65,21 @@ Line Syntax:
 {{< block "grid-2 mt-2" >}}
 {{< column >}}
 1. There are three points specified: `P1(x1, y1, z1)`, `P2(x2, y2, z2)` and `P3(x3, y3, z3)`.
-   TODO write text here
+   They form a plane (blue).
+2. There also are two angles specified: `a` and `b`. Two [circular sector](https://en.wikipedia.org/wiki/Circular_sector) can be computed.
+   The first one (purple) lies on the blue plane, has the angle `a`, the center at `P1` and the middle of the arc is at `P2`.
+3. The second circle (orange) also has its center at `P1` and touches `P2` at the middle of its arc. It is perpendicular to the blue plane.
+4. Together, these two circles form a spherical rectangle (blue).
+5. Before we project our image onto our object, we project it onto that blue spherical rectangle.
+6. For any point on the spherical rectangle we can calculate two angles (purple and orange), starting from `P2`.
+7. These two angles are then mapped to the texture to get the color.
+8. When this process is done for all points on the spherical rectangle, the texture is projected onto it.
+9. The object formed from the `<geometry1>` and `<geometry2>` lines usually is near `P1`, but I think it also can be on the other side of the spherical rectangle.
+   Only points inside the black lines will get textured. In this animation the object (green) is a part of a sphere with a dent.
+10. Like with planar and cylindrical projection we can cast rays to get the color of a given point of the object. The ray starts at `P1` and goes through the given point.
+11. If it intersects the spherical rectangle, the point on the object is colored like the texture on the spherical rectangle.
+    Otherwise, the color of the given point is taken from the geometry line, as if there was no `!TEXMAP` at all.
+12. If this process is executed for all points on the object, the texture gets applied to it.
 {{< /column >}}
 {{< column >}}
 ![Animation to explain spherical mapping](../../../img/sphericalTexmap/animation.gif)
