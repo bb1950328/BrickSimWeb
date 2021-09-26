@@ -6,8 +6,6 @@ weight: 1
 {{< tip "warning" >}} This page contains my interpretation
 of [the official LDraw document](https://www.ldraw.org/documentation/ldraw-org-file-format-standards/language-extension-for-texture-mapping.html). Information on this page may be wrong. {{< /tip >}}
 
-[Official LDraw document](https://www.ldraw.org/documentation/ldraw-org-file-format-standards/language-extension-for-texture-mapping.html)
-
 Line Syntax:
 ```ldr
 0 !TEXMAP (START | NEXT) (PLANAR | CYLINDRICAL | SPHERICAL) x1 y1 z1 x2 y2 z2 x3 y3 z3 [a] [b] <pngfile> [GLOSSMAP pngfile]
@@ -41,3 +39,25 @@ Line Syntax:
 (Download the [.blend](../../../img/planarTexmap/planarTexmap.blend) or [the individual images](../../../img/planarTexmap/planarTexmapAnimationSingleFrames.zip))
 {{< /column >}}
 {{< /block >}}
+
+## Cylindrical Mapping
+{{< block "grid-2 mt-2" >}}
+{{< column >}}
+1. There are three points specified: `P1(x1, y1, z1)`, `P2(x2, y2, z2)` and `P3(x3, y3, z3)`.
+   I think that `∠P2 P1 P3` should be `90°`, but that's not stated in the standard. `P1` and `P2` will form the radial axis (red line).
+2. A part of a cylindrical surface is taken (blue). The angle is `a` and the middle is at `P3`. The radius equals to the distance between `P1` and `P3`.
+3. The texture image is put onto that blue cylindrical plane. This image is only shown in the animation, it's not part of the result.
+4. The object formed from the `<geometry1>` and `<geometry2>` lines usually is near `P1` and `P2`.
+   But I think it also can be outside the blue plane. Only points between the black lines will get textured.
+5. To find the color for a given point on the object, a ray has to be casted. It is perpendicular to the radial axis and goes through the given point.
+   If the ray also goes through the image plane, the color of the given point is the color of the texture at the intersection point.
+   If the ray misses the plane, the color of the given point is taken from the geometry line, as if there was no `!TEXMAP` at all.
+6. When that process is done for all points on the object, the texture is cylindrically projected onto it.
+{{< /column >}}
+{{< column >}}
+![Animation to explain cylindrical mapping](../../../img/cylindricalTexmap/animation.gif)
+(Download the [.blend](../../../img/cylindricalTexmap/cylindricalTexmap.blend) or [the individual images](../../../img/cylindricalTexmap/cylindricalTexmapAnimationSingleImages.zip))
+{{< /column >}}
+{{< /block >}}
+
+   
