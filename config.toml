@@ -73,3 +73,8 @@ enableGitInfo = true
         iconLight = "img/GitHubMarkLight.svg"
         iconDark = "img/GitHubMarkDark.svg"
         url = "https://github.com/bb1950328/BrickSim"
+
+[sitemap]
+    changefreq = 'weekly'
+    filename = 'sitemap.xml'
+    priority = 0.5
