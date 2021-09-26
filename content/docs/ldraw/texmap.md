@@ -60,4 +60,15 @@ Line Syntax:
 {{< /column >}}
 {{< /block >}}
 
-   
+## Spherical mapping
+
+{{< block "grid-2 mt-2" >}}
+{{< column >}}
+1. There are three points specified: `P1(x1, y1, z1)`, `P2(x2, y2, z2)` and `P3(x3, y3, z3)`.
+   TODO write text here
+{{< /column >}}
+{{< column >}}
+![Animation to explain spherical mapping](../../../img/sphericalTexmap/animation.gif)
+(Download the [.blend](../../../img/sphericalTexmap/sphericalTexmap.blend) or [the individual images](../../../img/sphericalTexmap/sphericalTexmapAnimationSingleImages.zip))
+{{< /column >}}
+{{< /block >}}
