@@ -4,11 +4,12 @@ weight: 5
 ---
 
 1. Download XCode from the AppStore if you haven't already
-1. Clone the repository. The cloning feature of XCode did't work correctly on my machine, so I cloned it from the command line:
+2. 1. Execute the following command to install the XCode command line tools if you haven't already: `sudo xcode-select --install`
+3. Clone the repository. The cloning feature of XCode did't work correctly on my machine, so I cloned it from the command line:
    `git clone --recurse-submodules -j8 https://www.github.com/bb1950328/BrickSim.git`
-1. In the terminal, navigate to the cloned folder and execute `./setup_workspace.sh`
-1. Install CMake. You can install the CMake GUI from [here](https://cmake.org/download/) or just the command line version with `brew install cmake`
-1. Then you can generate the XCode project files.
+4. In the terminal, navigate to the cloned folder and execute `./setup_workspace.sh`
+5. Install CMake. You can install the CMake GUI from [here](https://cmake.org/download/) or just the command line version with `brew install cmake`
+6. Then you can generate the XCode project files.
    * If you have the CMake GUI, you can configure the project like this:
      1. Set the path of the directory you just cloned BrickSim into:
         ![configure CMake Project for Xcode using CMake GUI](../../../../../img/xcode_cmake_gui_step1.png)
@@ -27,6 +28,6 @@ weight: 5
      ```
      (you have to be inside the `BrickSim` directory initially)
      Then you can open the project in Xcode.
-1. When Xcode has loaded the project, you have to switch the target to BrickSim:
+7. When Xcode has loaded the project, you have to switch the target to BrickSim:
    ![Xcode target selection](../../../../../img/xcode_cmake_gui_step4.png)
-1. After that, you should be able to build and run BrickSim. Happy coding!
+8. After that, you should be able to build and run BrickSim. Happy coding!

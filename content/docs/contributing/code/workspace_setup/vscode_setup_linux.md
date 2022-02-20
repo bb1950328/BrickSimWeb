@@ -5,6 +5,8 @@ weight: 3
 
 This tutorial was tested on Ubuntu 20.10, but it should work too on other versions or distributions. You'll have to install packages manually if you don't have `apt`.
 
+1. Clone the repository by `git clone --recurse-submodules -j8 https://github.com/bb1950328/BrickSim.git`
+1. Run [`setup_workspace.sh`](https://github.com/bb1950328/BrickSim/blob/master/setup_workspace.sh)
 1. Install VS Code via [a way described in the offical VS Code docs](https://code.visualstudio.com/docs/setup/linux)
 1. Open VS Code and install the `ms-vscode.cpptools` and `ms-vscode.cmake-tools` extensions
 1. Press <kbd>Ctrl</kbd> + <kbd>Shift</kbd>+ <kbd>P</kbd> and type "preferences: Open Settings (JSON)"  

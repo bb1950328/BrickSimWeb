@@ -3,13 +3,17 @@ title: "Using VS Code on Windows"
 weight: 2
 ---
 
-1. add `C:\msys64\mingw64\bin` to PATH
-1. Download and install VS Code from [here](https://code.visualstudio.com/download) if you haven't already
-1. Install the extensions `ms-vscode.cpptools` and `ms-vscode.cmake-tools`
-1. Open the BrickSim folder in VS Code. you should get the notifications like in the following screenshot (at least the first one):  
+1. Download MSYS2 from [https://www.msys2.org/](https://www.msys2.org/) and follow the installation instructions there.
+2. Execute the following command in a MSYS2 Shell to install git: `pacman -S git`
+3. add `C:\msys64\mingw64\bin` to PATH
+4. Download and install VS Code from [here](https://code.visualstudio.com/download) if you haven't already
+5. Install the extensions `ms-vscode.cpptools` and `ms-vscode.cmake-tools`
+1. Clone the repository by `git clone --recurse-submodules -j8 https://github.com/bb1950328/BrickSim.git`
+1. Run [`setup_workspace.sh`](https://github.com/bb1950328/BrickSim/blob/master/setup_workspace.sh)
+6. Open the BrickSim folder in VS Code. you should get the notifications like in the following screenshot (at least the first one):  
    ![screenshot of VS Code notifications after opening the project the first time](../../../../../img/vscode_windows_screenshot1.png)  
    click "yes" on the first notification, we'll deal with the second one later.
-1. Now it's time to adjust some settings:
+7. Now it's time to adjust some settings:
    1. Press <kbd>Ctrl</kbd> + <kbd>Shift</kbd>+ <kbd>P</kbd> and type "preferences: Open Settings (JSON)"  
       ![After pressing Ctrl+Shift+P and typing "preferences: Open Settings (JSON)"](../../../../../img/vscode_windows_screenshot2.png)  
       Hit <kbd>Enter</kbd> or click the first result.
@@ -60,8 +64,8 @@ weight: 2
       ]
       ```
    1. Save the `cmake-tools-kits.json` file.
-1. Download git for windows from [here](https://git-scm.com/download/win) and install it if you want git integration in VS Code.
-1. Restart VS Code
-1. You should now be able to launch the application using the bottom status bar:  
-   ![VS Code status bar with mouse hovering the run icon](../../../../../img/vscode_windows_screenshot4.png)
+8. Download git for windows from [here](https://git-scm.com/download/win) and install it if you want git integration in VS Code.
+9. Restart VS Code
+10. You should now be able to launch the application using the bottom status bar:  
+    ![VS Code status bar with mouse hovering the run icon](../../../../../img/vscode_windows_screenshot4.png)
 
