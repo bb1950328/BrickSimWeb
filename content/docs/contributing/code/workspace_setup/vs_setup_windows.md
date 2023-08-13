@@ -14,7 +14,7 @@ weight: 4
 6. Install vcpkg like described [here](https://vcpkg.io/en/getting-started.html). If your vcpkg root is not next to the BrickSim root, you will have to edit the toolchain path in `BrickSim/CMakeSettings.json`.
 7. Add the vcpkg root folder to your `Path` environment variable and create a new one called `VCPKG_DEFAULT_TRIPLET` with the value `x64-windows`
 8. Restart your computer
-9. Open a PowerShell, navigate to the BrickSim root folder and execute `vcpkg "@vcpkg_rc.txt"` to install some dependencies
+9. Open a PowerShell, navigate to the BrickSim root folder and execute `vcpkg "@vcpkg_rf.txt"` to install some dependencies
 10. Execute the following commands:
 ```PowerShell
    Expand-Archive 'src\lib\glad.zip' 'glad_tmp'

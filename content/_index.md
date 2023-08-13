@@ -12,7 +12,7 @@ draft: false
 
 {{< tip "warning" >}}
 
-This Program is currently under development and shouldn't be used in a productive environment yet.
+This Program is currently under development and should not be used in a productive environment yet.
 
 If you want to help, look at the [contribution section](docs/contributing) in the docs.
 

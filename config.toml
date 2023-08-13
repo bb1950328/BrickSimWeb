@@ -2,7 +2,7 @@ baseURL = "https://BrickSim.org"
 languageCode = "en-us"
 title = "BrickSim"
 theme = "compose"
-publishDir = "../BrickSim/docs"
+publishDir = "./public"
 
 enableGitInfo = true
 
