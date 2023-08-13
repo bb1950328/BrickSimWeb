@@ -1,6 +1,6 @@
 ---
 title: "License"
-weight: 1
+weight: 7
 ---
 
 BrickSim is licensed under [GPLv3](https://choosealicense.com/licenses/gpl-3.0/). The major reason for that choice is to prevent anyone with more resources than the maintainers and direct contributors of BrickSim from forking the project and overtaking it. With GPLv3 all forks must disclose their source too and that allows us to merge it back into the original BrickSim project.
