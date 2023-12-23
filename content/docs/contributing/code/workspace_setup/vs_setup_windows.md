@@ -14,14 +14,7 @@ weight: 4
 6. Install vcpkg like described [here](https://vcpkg.io/en/getting-started.html). If your vcpkg root is not next to the BrickSim root, you will have to edit the toolchain path in `BrickSim/CMakeSettings.json`.
 7. Add the vcpkg root folder to your `Path` environment variable and create a new one called `VCPKG_DEFAULT_TRIPLET` with the value `x64-windows`
 8. Restart your computer
-9. Open a PowerShell, navigate to the BrickSim root folder and execute `vcpkg "@vcpkg_rf.txt"` to install some dependencies
-10. Execute the following commands:
-```PowerShell
-   Expand-Archive 'src\lib\glad.zip' 'glad_tmp'
-   Move-Item -Path 'glad_tmp\src\glad.c' -Destination 'src\lib\glad.c'
-   Move-Item -Path 'glad_tmp\include' -Destination 'src\lib\include'
-   Remove-Item -Recurse -Force 'glad_tmp'
-```
+9. Open a PowerShell, navigate to the BrickSim root folder and execute `.\setup_workspace.ps1` to install some dependencies and unzip `glad.zip`
 10. Right-click on `CMakeLists.txt` in the "Solution Explorer" and choose "Configure Cache"
 11. Click on the small arrow next to "Select Startup Item" and choose "BrickSim.exe". Then click on the green play button.
     ![VS 2022 Select startup item](../../../../../img/vs_windows_select_startup_item.png)
